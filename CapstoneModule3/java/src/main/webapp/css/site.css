@@ -1,0 +1,282 @@
+@charset "ISO-8859-1";
+
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+	position: relative;
+	background-color: #f0f0f0;
+}
+
+header {
+	background-color: #f0f0f0;
+}
+
+.footer {
+	background-color: rgb(200, 200, 200);
+	height: 20px;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+
+.detailImg {
+	display: block;
+	margin: auto;
+	width: 80%;
+	border-radius: 4px;
+}
+
+.park-image {
+	display: block;
+	margin: auto;
+	width: 98%;
+	border-radius: 4px;
+}
+
+.park-image:hover {
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+	opacity: 0.5;
+}
+
+#logo {
+	width: 30%;
+}
+
+.content {
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+/*----navigation bar----*/
+.navbar-nav {
+	flex-direction: row;
+}
+
+.navLink {
+	font-size: 16pt;
+}
+
+/*----home page----*/
+.home-row {
+	margin-bottom: 30px;
+	border-bottom: 3px solid #383838;
+	padding-bottom: 30px;
+}
+
+/*----survey form-----*/
+.formcontainer {
+	text-align: center;
+}
+
+.formcontent {
+	display: inline-block;
+	background-color: white;
+	padding: 16px;
+	border-radius: 8px;
+	margin: 10%;
+}
+
+.formbox {
+	border-radius: 3px;
+	padding: 3px;
+	margin: 3px;
+}
+
+.error {
+	color: red;
+}
+
+.formtext {
+	font-size: 12pt;
+}
+
+#formbody {
+	background-image: url('../img/background.jpg');
+	background-color: rgba(255, 255, 255, 0.4);
+	background-blend-mode: lighten;
+	background-attachment: fixed;
+	background-position: bottom;
+	background-repeat: repeat-y;
+	background-size: 100%;
+}
+
+/*---- text ----*/
+#parkName {
+	text-align: center;
+}
+
+#parkQuote {
+	text-align: center;
+	font-style: italic;
+	font-size: 14pt;
+}
+
+.parkInfo {
+	font-size: 12pt;
+}
+
+.parkDescription {
+	font-size: 16pt;
+}
+
+td, th {
+	font-size: 10pt;
+}
+
+.parkName > a {
+	font-size: 26pt;
+	color: #383838;
+}
+
+h3 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 14pt;
+}
+.fav-header {
+	text-align: center;
+
+	font-size: 40pt;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	
+}
+
+.forecast-text {
+	text-align: center;
+	
+	font-size: 10pt;
+}
+.icon > a {
+	font-size: 12pt;
+	color: #36702d;	
+	
+}
+.icon > a:hover {
+	text-decoration: none;
+	color: #6fc063;	
+	
+}
+
+.icon {
+	height: 12pt;
+	color: #36702d;
+	padding-right: 10px;
+}
+
+.rank {
+	font-size: 50pt;
+	font-weight: bold;
+	
+}
+.low {
+	color: blue;
+}
+
+.high {
+	color: red;
+}
+
+
+
+/*-- details----*/
+table {
+	border-collapse: collapse;
+	width: 100%;
+	padding: 20px;
+	border-bottom: 15px solid #383838;
+}
+
+th, td {
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #ffffff;
+}
+
+th {
+	background-color: #383838;
+	color: white;
+}
+
+.containDescription {
+	border-top: 15px solid #383838;
+	border-bottom: 15px solid #383838;
+	padding: 20px;
+	background-color: #ffffff;
+}
+
+/*----Weather forecast----*/
+#weatherImage {
+	display: block;
+	margin: auto;
+	width: 60%;
+}
+
+.weathertile {
+	margin-top: 10px;
+	background-color: white;
+	border-radius: 4px;
+	padding: 5px;
+	box-shadow: -2px 2px 7.5px rgba(68, 68, 68, 0.4);
+}
+
+#weatherParkName {
+	font-weight: bold;
+}
+
+.weatherPrep {
+	background-color: lightgrey;
+	border-radius: 8px;
+	padding: 5px;
+}
+
+.panel {
+	margin-top: 15px;
+	margin-bottom: 50px;
+	
+	background-image: url('../img/background.jpg');
+	background-color: rgba(255, 255, 255, 0.4);
+	background-blend-mode: lighten;
+	
+	background-position: bottom;
+	background-repeat: repeat-y;
+	background-size: 100%;
+
+	/*background-image: linear-gradient(to bottom right, #6b6b6b, #383838);*/
+}
+.weather-header {
+	color: white;
+	font-size: 20pt;
+}
+
+.radio-text {
+	color: white;
+	display: inline;
+}
+
+.panel>.panel-heading {
+	background-image: linear-gradient(to bottom right, #383838, #6b6b6b);
+}
+
+.panel>.panel-heading h2, .panel>.panel-heading form {
+	display: inline;
+	
+}
+.panel>.panel-heading form {
+	float: right;
+	
+}
+
+
+
+
+
+
